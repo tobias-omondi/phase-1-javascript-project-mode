@@ -1,0 +1,26 @@
+ body {
+    background-color: azure;
+    margin:auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-small;
+    padding: 0%;
+ }
+ /* styling our h1 */
+ h1{
+    font-weight: lighter;
+    font-size:medium;
+    padding-left: 30px;
+    margin-bottom: 20px;
+ }
+#content{
+    padding: 12px;
+    margin: 10px;
+    display: block;
+}
+a{
+    padding: 10px;
+    margin: 0.2rem;
+}
+content-1 {
+    align-items: end;
+}

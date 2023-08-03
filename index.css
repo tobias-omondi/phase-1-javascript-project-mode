@@ -1,5 +1,5 @@
 body{
-    background-color: antiquewhite;
+    background-image: -moz-repeating-radial-gradient();
     padding: 0%;
     margin: auto;
     font-family: Arial, sans-serif;
@@ -13,6 +13,17 @@ h1 {
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+h2{
+  text-align: center;
+  background-color: darkgray;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 h1.hover{
   cursor: pointer;
 }
@@ -22,6 +33,7 @@ h1.hover{
   justify-content: center;
   max-width: 1200px;
   margin: 20px auto;
+  background-color: #666;
 }
 
 .products {
@@ -106,4 +118,22 @@ h1.hover{
 .products.on-sale .price {
   color: #4CAF50;
   font-weight: bold;
+}
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Optional hover effect */
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Optional active (when clicked) effect */
+button:active {
+  background-color: #004080;
 }

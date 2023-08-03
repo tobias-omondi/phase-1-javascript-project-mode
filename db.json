@@ -1,52 +1,19 @@
-
-[
-  {
-      "id":"1",
-      "image":"https://assets.architecturaldigest.in/photos/600844ae51daf9662c149651/4:3/w_1024,h_768,c_limit/Mumbai-2-bhk-nordic-interior-design-1366x768.jpg",
-      "price":"110,200",
-      "order-rent":"40,000"
-  },
-  {
-      "id":"2",
-      "image":"https://assets.vogue.com/photos/623cac47c241cffc26b93122/master/w_2560%2Cc_limit/image1.jpeg",
-      "price":"200,000",
-      "order-rent":"52,000"
-  },
-  {
-      "id":"3",
-      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSTb-oAbBQ6zksGUHM3jzh1TE3F4X5TJIsBg&usqp=CAU",
-      "price":"400,000",
-      "order-rent":"120,000",
-
-  },
-  {
-      "id":"4",
-      "image":"https://assets.architecturaldigest.in/photos/600839aae6e1f64740188fce/16:9/w_2560%2Cc_limit/Bungalow-in-jaipur_1-1366x768.jpg",
-      "price":"230,000",
-      "order-rent":"110,000"
-  },
-  {
-      "id":"5",
-      "image":"https://www.mydomaine.com/thmb/I-G241XIStQv30POSZ7iBe9Sc1o=/700x0/filters:no_upscale():strip_icc()/cdn.cliqueinc.com__cache__posts__212361__-2030968-1483470364.700x0c-8571e60cad7b42a981ab29ae10b5c153-497b002f87af4747b2ab38b560e7c0fd.jpg",
-      "price":"90,500",
-      "order-rent":"54,000"
-  },
-  {
-      "id":"6",
-      "image":"https://hips.hearstapps.com/hmg-prod/images/4-personal-items-studio-6f-1574711715.jpg?resize=480:*",
-      "price":"140,000",
-      "order-rent":"100,00",
-  },
-  {
-      "id":"7",
-      "image":"https://i.pinimg.com/236x/85/c1/1c/85c11c6981cba449f3a1a226e3edba41--industrial-metal-industrial-style.jpg",
-      "price":"2,000,000",
-      "order-rent":"450,000"
-  },
-  {
-      "id":"8",
-      "image":"https://cf.ltkcdn.net/interiordesign/images/orig/210787-1080x632-memphis-room.jpg",
-      "price":"230,000",
-      "order-rent":"150,000"
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
   }
-]
+}
